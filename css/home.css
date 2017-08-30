@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#home .overlay{
+	background:transparent url(../img/dots.png) left top repeat;
+	width:100%;
+	position:absolute;
+	z-index:2;
+	top:105px;
+	left:0;
+	float:left;
+	clear:both;
+}
+
+#home .overlay h1{
+	display:block;
+	clear:both;
+	color:#FFF;
+	font-size:60px;
+	margin:150px auto 0;
+	text-align:center;
+	line-height:1.1;
+	padding:0;
+}
+
+#home .overlay h1.short{
+	display:inline-block;
+	margin:0;
+	width:100%;
+	vertical-align:middle;
+	text-align:center;
+}
+
+#home .flex-container{
+	float:left;
+	clear:both;
+	position:relative;
+	z-index:1;
+	top:0;
+	left:0;
+	width:100%;
+	overflow:hidden;
+}
+#home .flexslider{
+	float:left;
+	clear:both;
+	width:100%;
+	background-color:transparent;
+	border:none;
+	border-radius:0;
+	overflow:hidden;
+}
+#home .flexslider ul.slides li{
+	float:left;
+	width:100%;
+}
+
+#home .flexslider ul.slides li img{
+	position:absolute;
+	clear:both;
+	margin:0 auto;
+	max-width:none;
+	width:100%;
+}
+
+#home .flexslider ul.slides li img.desktop-slide{
+	display:block;
+}
+
+#home .flexslider ul.slides li img.mobile-slide{
+	display:none;
+}
+
+#home .main-container{
+	float:left;
+	clear:both;
+	width:100%;
+	position:relative;
+	z-index:3;
+	margin:-334px 0 0 0;
+	padding:0;
+}
+
+#home .main-container .main{
+	box-sizing:border-box;
+	display:block;
+	clear:both;
+	background-color:#FFF;
+	list-style:none;
+	margin:0 auto;
+	padding:39px 0;
+	width:100%;
+	height:226px;
+	max-width:1000px;
+}
+
+#home .main-container .main li{
+	box-sizing:border-box;
+	float:left;
+	width:33.3%;
+	padding:0 39px;
+	margin:0;
+	border-left:1px solid #cacaca;
+	height:100%;
+}
+
+#home .main-container .main li:first-child{
+	border-left:none;
+}
+
+#home .main-container .main li a,
+#home .main-container .main li a:link,
+#home .main-container .main li a:visited{
+	color:#00ad51;
+	font-size:18px;
+	display:block;
+	margin:0 0 5px;
+}
+
+#home .main-container .main li p{
+	color:#595959;
+	font-size:15px;
+}
+
+#home .footer{
+	/*margin-top:-226px;*/
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1515px){
+#home .main-container{
+	margin-top:-300px;
+}
+}
+
+@media only screen and (max-width: 1299px){
+#home .main-container{
+	margin-top:-200px;
+}
+#home .main-container .main{
+	max-width:75%;
+	padding:25px 0;
+	height:185px;
+}
+#home .main-container .main li{
+	padding:0 25px;
+}
+#home .main-container .main li a,
+#home .main-container .main li a:link,
+#home .main-container .main li a:visited{
+	font-size:15px;
+}
+#home .main-container .main li p{
+	font-size:13px;
+	line-height:1.2;
+}
+}
+
+@media only screen and (max-width: 783px){
+#home .overlay{
+	position:relative;
+	top:0;
+	margin:0 0 -100%;
+}
+#home .overlay h1{
+	margin:0;
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	vertical-align:middle;
+	font-size:50px;
+}
+#home .flex-container,
+#home .flexslider{
+	height:auto;
+}
+#home .flexslider ul.slides li img{
+	position:relative;
+	float:left;
+	clear:both;
+	width:100%;
+	height:auto;
+	left:0;
+}
+#home .main-container{
+	margin:0;
+}
+#home .main-container .main{
+	position:static;
+	float:left;
+	clear:both;
+	box-sizing:content-box;
+	padding:0 2%;
+	width:96%;
+	max-width:none;
+	margin:0;
+	height:auto;
+}
+#home .main-container .main li{
+	clear:both;
+	width:100%;
+	margin:0;
+	padding:45px 0;
+	border-left:none;
+	border-top:1px solid #cacaca;
+	box-sizing:content-box;
+}
+#home .main-container .main li:first-child{
+	border:none;
+}
+#home .main-container .main li a,
+#home .main-container .main li a:link,
+#home .main-container .main li a:visited{
+	font-size:22px;
+}
+#home .main-container .main li p{
+	font-size:18px;
+	line-height:1.2;
+}
+}
+
+@media only screen and (max-width: 565px){
+#home .overlay h1{
+	font-size:40px;
+}
+#home .flexslider ul.slides li img.desktop-slide{
+	display:none;
+}
+
+#home .flexslider ul.slides li img.mobile-slide{
+	display:block;
+}
+}
+
+@media only screen and (max-width: 495px){
+#home .overlay h1{
+	font-size:30px;
+}
+}
+
+/* End Media Queries */
+

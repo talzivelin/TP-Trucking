@@ -1,0 +1,839 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,700,800,900);
+@import url(http://fonts.googleapis.com/css?family=Volkhov:400,400italic);
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=bc50cdfc-fc1b-4255-9e88-f5c723d8d417");
+/* Table of contents
+
+	Basics
+	1.1 Basic Styling
+	1.2 Typography
+	1.3 Links
+	1.4 Buttons and Icons
+	1.5 Forms
+	1.6 Other General Elements
+*/
+/* ==================== 1.1 Basic Styling ==================== */
+
+/* line 12, ../sass/_basics.scss */
+html {
+  height: 100%;
+}
+
+/* line 16, ../sass/_basics.scss */
+body {
+  height: 100%;
+  color: #5c5c5c;
+  background: #ffffff;
+  font-family: "Museo Sans W01 300",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  z-index: 0;
+  position: relative;
+  margin:0;
+}
+
+/* line 26, ../sass/_basics.scss */
+::selection {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+/* line 31, ../sass/_basics.scss */
+::-moz-selection {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+/* ==================== 1.2 Typography ==================== */
+/* line 39, ../sass/_basics.scss */
+p {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+/* line 58, ../sass/_basics.scss */
+h1 {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.025em;
+}
+
+
+/* line 102, ../sass/_basics.scss */
+h1.color,
+h2.color,
+h3.color,
+h4.color,
+h5.color,
+h6.color,
+h7.color,
+p.color,
+span.color {
+  color: #80cbc8;
+}
+
+/* line 114, ../sass/_basics.scss */
+h1.dark,
+h2.dark,
+h3.dark,
+h4.dark,
+h5.dark,
+h6.dark,
+h7.dark,
+p.dark,
+span.dark {
+  color: #1a1a1a;
+}
+
+/* line 126, ../sass/_basics.scss */
+h1.grey,
+h2.grey,
+h3.grey,
+h4.grey,
+h5.grey,
+h6.grey,
+h7.grey,
+p.grey,
+span.grey {
+  color: #c0c0c0;
+}
+
+/* line 138, ../sass/_basics.scss */
+h1.white,
+h2.white,
+h3.white,
+h4.white,
+h5.white,
+h6.white,
+h7.white,
+p.white,
+span.white {
+  color: #ffffff;
+}
+
+/* line 143, ../sass/_basics.scss */
+a.normal,
+span.normal {
+  color: #1a1a1a;
+}
+
+/* line 148, ../sass/_basics.scss */
+b,
+strong {
+  font-weight: 900;
+}
+
+/* line 152, ../sass/_basics.scss */
+em {
+  font-style: italic;
+}
+
+/* line 156, ../sass/_basics.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 161, ../sass/_basics.scss */
+ol,
+ul {
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+/* line 166, ../sass/_basics.scss */
+.script {
+  font-family: 'Volkhov', Georgia, Times, serif;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  min-height:50px;
+}
+
+/* line 174, ../sass/_basics.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 178, ../sass/_basics.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 182, ../sass/_basics.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 186, ../sass/_basics.scss */
+h1.fittext {
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+
+
+/* ==================== 1.6 Other General Elements ==================== */
+
+
+/* line 547, ../sass/_basics.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 552, ../sass/_basics.scss */
+.image-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 557, ../sass/_basics.scss */
+.image-circle {
+  border-radius: 50%;
+}
+
+/* line 561, ../sass/_basics.scss */
+.column-border {
+  border-left: 2px solid #d6d6d6;
+  padding-left: 20px;
+}
+
+/* More control over margins */
+/* line 567, ../sass/_basics.scss */
+.margin {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+
+/* line 571, ../sass/_basics.scss */
+.margin-top {
+  margin-top: 25px !important;
+}
+
+/* line 575, ../sass/_basics.scss */
+.margin-bottom {
+  margin-bottom: 25px !important;
+}
+
+/* line 579, ../sass/_basics.scss */
+.no-margin {
+  margin: 0 !important;
+}
+
+/* line 583, ../sass/_basics.scss */
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+/* line 587, ../sass/_basics.scss */
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+/* Title settings */
+/* line 592, ../sass/_basics.scss */
+.title h1 {
+  font-size: 14px;
+  color: #c0c0c0;
+}
+
+/* line 597, ../sass/_basics.scss */
+.title hr {
+  width: 60px;
+  margin: 20px auto 30px;
+  border: 1px solid #c0c0c0;
+}
+
+/* Headers */
+/* line 605, ../sass/_basics.scss */
+.header {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 480px;
+}
+/* line 616, ../sass/_basics.scss */
+.header #logo {
+  z-index: 1;
+}
+
+/* line 622, ../sass/_basics.scss */
+.scaling-header {
+  background-attachment: fixed;
+  position: static;
+  /*necessary for the fixed bg position in chrome or overflow is visible (logo) */
+  background-size: 100%;
+  height: 0;
+  padding-top: 38%;
+}
+
+/* line 632, ../sass/_basics.scss */
+.header-inherited {
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+  width: 100%;
+  height: 480px;
+}
+
+/* line 642, ../sass/_basics.scss */
+.header-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  width: 700px;
+}
+
+/* Animation of the content inside the header */
+/* line 655, ../sass/_basics.scss */
+.header-center.fade-in {
+  zoom: 1;
+  animation: fadeit 1s ease-out forwards;
+  animation-iteration-count: 1;
+  -webkit-animation: fadeit 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3) url("../img/pattern.png") repeat top left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 11, ../sass/_utilities.scss */
+.button-image {
+  position: relative;
+  z-index: 999;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+  opacity: 0.85;
+  display: inline-block;
+}
+
+/* line 17, ../sass/_utilities.scss */
+.button-image:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* line 22, ../sass/_utilities.scss */
+.close {
+  position: absolute;
+  top: 25px;
+  right: 80px;
+  width: 30px;
+  padding: 0px;
+  display: block;
+  z-index: 999;
+  margin: 0;
+}
+
+/* line 33, ../sass/_utilities.scss */
+.touch .close {
+  display: none;
+}
+
+/* line 37, ../sass/_utilities.scss */
+.play {
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* line 45, ../sass/_utilities.scss */
+.scroll {
+  margin-left: -22px;
+  left: 50%;
+  position: absolute;
+  bottom: 8px;
+  z-index: 999;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+
+/* line 54, ../sass/_utilities.scss */
+.video-controls:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=900);
+  opacity: 9;
+}
+
+@font-face {
+  font-family: 'VideoJS';
+  src: url("font/vjs.eot");
+  src: url("font/vjs.eot?#iefix") format("embedded-opentype"), url("font/vjs.woff") format("woff"), url("font/vjs.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 92, ../sass/_utilities.scss */
+.video-controls {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+  opacity: 0.3;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: VideoJS;
+  color: #fff;
+  position: absolute;
+  z-index: 9999;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
+  margin: 50px auto;
+}
+/* line 105, ../sass/_utilities.scss */
+.video-controls .plause {
+  width: 3%;
+  height: 14px;
+  float: left;
+}
+/* line 109, ../sass/_utilities.scss */
+.video-controls .plause:before {
+  content: "\e002";
+}
+/* line 116, ../sass/_utilities.scss */
+.video-controls .paused:before {
+  content: "\e001";
+}
+/* line 121, ../sass/_utilities.scss */
+.video-controls .playing:before {
+  content: "\e002";
+}
+/* line 126, ../sass/_utilities.scss */
+.video-controls .loaded, .video-controls .played {
+  pointer-events: none;
+  height: 7px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 133, ../sass/_utilities.scss */
+.video-controls .progress {
+  height: 7px;
+  width: 97%;
+  margin: 3px 0;
+  float: left;
+  position: relative;
+  background-color: #666;
+}
+/* line 141, ../sass/_utilities.scss */
+.video-controls .loaded {
+  background-color: #000;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+/* line 145, ../sass/_utilities.scss */
+.video-controls .played {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  background-color: #00ad51;
+}
+
+
+/* line 1, ../sass/_main.scss */
+.video-module, .portfolio, .services, .about-us, .clients, .process, .home {
+  position: relative;
+}
+
+/* line 5, ../sass/_main.scss */
+.video-module {
+  z-index: -1;
+}
+
+/* line 13, ../sass/_main.scss */
+.portfolio, .services, .about-us, .clients, .contact, .process, .video-module, .home, .bottomvideo {
+  z-index: 1;
+}
+
+.bottomvideo  {
+  z-index: 3;
+}
+
+/* line 50, ../sass/_main.scss */
+.video-controls, .close {
+  display: none;
+}
+
+/* line 54, ../sass/_main.scss */
+.background-player {
+  position: fixed;
+  display: block;
+  z-index: -1;
+}
+
+/* line 59, ../sass/_main.scss */
+.foreground-player {
+  z-index: 9;
+  visibility: hidden;
+  position: static;
+}
+
+/* ==================== 2.2 Home ==================== */
+/* background video */
+/* line 10, ../sass/pages/_video-ar.scss */
+.videowrap {
+  position: relative;
+  zoom: 1;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  /*				min-height:100%;*/
+}
+
+/* line 24, ../sass/pages/_video-ar.scss */
+.video-module.foreground {
+  height: auto;
+}
+
+/* line 28, ../sass/pages/_video-ar.scss */
+.full-height .player {
+  /*	padding-top:56%;*/
+  /*	height:0 !important;*/
+  top: 0;
+  min-height: 56.3%;
+  left: 0;
+}
+
+/* line 36, ../sass/pages/_video-ar.scss */
+.videowrap {
+  height: 0;
+  padding-top: 56.3%;
+}
+
+/* line 41, ../sass/pages/_video-ar.scss */
+.videoBG {
+  z-index: 0;
+  position: absolute !important;
+  z-index: 0;
+  float: left;
+}
+/* line 48, ../sass/pages/_video-ar.scss */
+.videoBG video {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+/* line 57, ../sass/pages/_video-ar.scss */
+.touch .home {
+  background-image: url("../images/placeholder-slide-1.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  height: 56.3%;
+  min-height: 56.3%;
+}
+
+/* line 66, ../sass/pages/_video-ar.scss */
+.video-enabled .home {
+  background-color: #000;
+  /*	padding-top:100%;*/
+}
+
+/* line 71, ../sass/pages/_video-ar.scss */
+.video-enabled .player {
+  padding-top: 56.3%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+/* line 85, ../sass/pages/_video-ar.scss */
+.foreground .header-center, .foreground .overlay {
+  display: none;
+}
+/* line 88, ../sass/pages/_video-ar.scss */
+.foreground .foreground-player {
+  visibility: visible !important;
+  position: absolute !important;
+  height: 0;
+  padding-top: 56.3%;
+  z-index: 99;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 95, ../sass/pages/_video-ar.scss */
+.foreground .background-player {
+  visibility: hidden;
+}
+/* line 100, ../sass/pages/_video-ar.scss */
+.foreground .close, .foreground .video-controls {
+  display: block;
+}
+
+/* ==================== 2.2 Home ==================== */
+/* line 3, ../sass/pages/_video-full.scss */
+.cover {
+  z-index: 0;
+}
+/* line 5, ../sass/pages/_video-full.scss */
+.cover .videowrap {
+  position: relative;
+  zoom: 1;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+/* line 19, ../sass/pages/_video-full.scss */
+.cover.foreground .videowrap {
+  height: 0;
+  min-height: 0;
+  padding-top: 56%;
+  z-index: 99;
+}
+/* line 25, ../sass/pages/_video-full.scss */
+.cover.foreground .videowrap .foreground-player video {
+  max-width: 100%;
+}
+/* line 34, ../sass/pages/_video-full.scss */
+.cover.full-height .player {
+  top: 0;
+  min-height: 100%;
+  height: 100%;
+}
+/* line 40, ../sass/pages/_video-full.scss */
+.cover .videoBG video {
+  max-width: 500%;
+  max-height: 500%;
+}
+/* line 45, ../sass/pages/_video-full.scss */
+.cover video {
+  z-index: 0 !important;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+}
+/* line 55, ../sass/pages/_video-full.scss */
+.cover .background-player {
+  z-index: -1;
+}
+/* line 57, ../sass/pages/_video-full.scss */
+.cover .background-player video {
+  left: 50% !important;
+  position: relative;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+/* line 68, ../sass/pages/_video-full.scss */
+.cover .video-enabled .home {
+  background-color: #000;
+  height: 100%;
+  /*	padding-top:100%;*/
+}
+/* line 74, ../sass/pages/_video-full.scss */
+.cover .video-enabled .player {
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+/* line 83, ../sass/pages/_video-full.scss */
+.cover .background-player {
+  position: fixed;
+  display: block;
+  z-index: -1;
+}
+/* line 88, ../sass/pages/_video-full.scss */
+.cover .foreground-player {
+  /*	height:100%;*/
+  z-index: 9;
+  visibility: hidden;
+  position: static;
+}
+/* line 95, ../sass/pages/_video-full.scss */
+.cover .foreground .foreground-player {
+  visibility: visible;
+}
+/* line 98, ../sass/pages/_video-full.scss */
+.cover .foreground .background-player {
+  visibility: hidden;
+}
+/* line 101, ../sass/pages/_video-full.scss */
+.cover .foreground .video-controls {
+  display: block;
+}
+
+/* background video */
+/* line 110, ../sass/pages/_video-full.scss */
+.touch .home {
+  background-image: url("../images/placeholder-slide-1.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  height: 100%;
+  min-height: 100%;
+}
+
+/* ==================== 4.1 Tablet Portrait ==================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 7, ../sass/_responsive.scss */
+  .home .header-center .main-title {
+    font-size: 54.4px;
+    margin-bottom: 10px;
+  }
+  /* line 11, ../sass/_responsive.scss */
+  .home .header-center .script {
+    font-size: 25.5px;
+  }
+
+   /* line 27, ../sass/_responsive.scss */
+  .header-center {
+    width: 580px;
+  }
+}
+/* ==================== 4.2 Mobile Landscape ==================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 49, ../sass/_responsive.scss */
+  .home,
+  .fullscreen-image,
+  .header,
+  .header-inherited {
+    background-attachment: scroll;
+  }
+
+  /* line 54, ../sass/_responsive.scss */
+  .home .header-center .main-title {
+    font-size: 44.8px;
+    margin-bottom: 14px;
+  }
+  /* line 58, ../sass/_responsive.scss */
+  .home .header-center .script {
+    font-size: 21px;
+  }
+
+   /* line 73, ../sass/_responsive.scss */
+  .header-center {
+    width: 390px;
+  }
+}
+/* ==================== 4.3 Mobile Portrait ==================== */
+@media only screen and (max-width: 479px) {
+  
+  /* line 194, ../sass/_responsive.scss */
+  .home,
+  .fullscreen-image,
+  .header,
+  .header-inherited {
+    background-attachment: scroll;
+  }
+
+  /* line 199, ../sass/_responsive.scss */
+  .home .header-center .main-title {
+    font-size: 51.2px;
+    margin-bottom: 10px;
+  }
+  /* line 203, ../sass/_responsive.scss */
+  .home .header-center .script {
+    font-size: 15px;
+  }
+
+  /* line 209, ../sass/_responsive.scss */
+  .text-left,
+  .text-right {
+    text-align: center;
+  }
+
+  /* line 213, ../sass/_responsive.scss */
+  .column-border {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  /* line 218, ../sass/_responsive.scss */
+  .header-center {
+    width: 300px;
+  }
+  
+  h1.fittext {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+
+}
+/* ==================== 4.4 Modernizr-Assisted Fixes ==================== */
+/* line 339, ../sass/_responsive.scss */
+html.touch .fullscreen-image,
+html.touch .header,
+html.touch .home,
+html.touch .header-inherited {
+  background-attachment: scroll;
+}
+
+
+
+.surface {
+    background-image: url("../images/portfolio/surface_header.jpg");
+}
+
+.portfolio-header .videowrap {
+    padding-top: 28%;
+    z-index: 0;
+	left: 0;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
+.tallwrap {
+    padding-bottom: 56% !important;
+    transition: all 0.1s ease-in-out 0s;
+	padding-top:0 !important;
+}

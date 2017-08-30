@@ -1,0 +1,11 @@
+AuthType Basic
+AuthName "Restricted Files"
+# (Following line optional)
+AuthBasicProvider file
+# Update the client & job number (jobnumber_component) as well as the "dev" or "stage"
+
+AddType application/vnd.ms-fontobject .eot
+AddType application/octet-stream .otf .ttf
+AddType application/x-font-woff .woff
+AddType image/svg+xml .svg .svgz
+AddEncoding x-gzip .svgz

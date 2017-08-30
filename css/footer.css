@@ -1,0 +1,666 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Begin Expedia Footer */
+.site-footer-background * {
+    -moz-box-sizing: border-box;
+}
+.site-footer-background {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #6B6B6B;
+    font-size: 106.25%;
+    line-height: 1.45;
+    text-rendering: optimizelegibility;
+	font-family:HelveticaNeueRegular, Arial, sans-serif;
+	float:left;
+	clear:both;
+	width:96%;
+	position:relative;
+	z-index:99;
+	padding:0 2%;
+}
+.site-footer-wrap {
+    margin: 0 auto;
+	width:100%;
+    max-width: 1110px;
+    padding:20px 0 0 0;
+    color: #6B6B6B;
+    font-size: 106.25%;
+    line-height: 1.45;
+    text-rendering: optimizelegibility;
+}
+.site-footer-wrap .site-footer .segmented-list p, 
+.site-footer-wrap .site-footer .segmented-list h1, 
+.site-footer-wrap .site-footer .segmented-list h2, 
+.site-footer-wrap .site-footer .segmented-list h3, 
+.site-footer-wrap .site-footer .segmented-list h4, 
+.site-footer-wrap .site-footer .segmented-list h5, 
+.site-footer-wrap .site-footer .segmented-list h6 {
+    font-size: 0.647059em;
+    line-height: 18px;
+}
+.site-footer-wrap .site-footer h5 {
+    color: #58738A;
+    margin: 0;
+}
+.site-footer-wrap p {
+    margin: 0;
+	font-family:HelveticaNeueRegular, Arial, sans-serif;
+}
+.site-footer-wrap h1, 
+.site-footer-wrap h2, 
+.site-footer-wrap h3, 
+.site-footer-wrap h4, 
+.site-footer-wrap h5, 
+.site-footer-wrap h6 {
+    color: #1F1F1F;
+    font-weight: bold;
+    margin: 0;
+	font-family:HelveticaNeueRegular, Arial, sans-serif;
+}
+.segmented-list p a{
+	font-size:1em !important;
+}
+.site-footer-wrap .site-footer {
+    margin-left: 9em;
+}
+.site-footer-wrap .cols-nested:before, 
+.site-footer-wrap .cols-nested:after {
+    content: "";
+    display: table;
+}
+.site-footer-wrap .cols-nested:before, 
+.site-footer-wrap .cols-nested:after {
+    content: "";
+    display: table;
+}
+.site-footer-wrap .cols-nested:after {
+    clear: both;
+}
+.site-footer-wrap .cols-nested:before, 
+.site-footer-wrap .cols-nested:after {
+    content: "";
+    display: table;
+}
+.site-footer-wrap .cols-nested:after {
+    clear: both;
+}
+.site-footer-wrap .cols-nested:before, 
+.site-footer-wrap .cols-nested:after {
+    content: "";
+    display: table;
+}
+.site-footer-wrap .cols-nested {
+    clear: both;
+    margin: 0 -1.41176em;
+    padding: 0 1.41176em 0 0;
+    position: relative;
+}
+.site-footer-wrap .logo-wrap {
+    float: left;
+    width: 9em;
+}
+.site-footer-wrap .logo-wrap #footer-logo.logo {
+    display: block;
+    height: 36px;
+    margin-bottom: 0;
+    overflow: hidden;
+    padding-top: 1.94118em;
+    width: 9em;
+	text-indent:-9999px;
+}
+.site-footer-wrap #header-logo.logo, 
+.site-footer-wrap #footer-logo.logo {
+    background: url(../img/exp-logo.png) no-repeat scroll 0 0 transparent !important;
+}
+.site-footer-wrap .cf:after {
+    clear: both;
+}
+.site-footer-wrap .site-footer-wrap .site-footer {
+    margin-left: 9.52941em;
+}
+.site-footer-wrap .cf {
+}
+.site-footer-wrap .site-footer .expedia-links {
+    float: left;
+    font-size: 0.764706em;
+    margin-top: 0.588235em;
+}
+.site-footer-wrap .site-footer h6{
+	display:block;
+	clear:both;
+	float:left;
+	padding-top: 0.705882em;
+	font-size: 0.647059em;
+    line-height: 18px;
+}
+.site-footer-wrap .site-footer h6, 
+.site-footer-wrap .site-footer ul {
+    margin: 0;
+    padding-left: 0;
+}
+.site-footer-wrap ul, 
+.site-footer-wrap ol {
+    margin: 1.41176em 0 0;
+}
+.site-footer-wrap ul, 
+.site-footer-wrap ol {
+    margin: 1.41176em 0;
+    padding: 0 0 0 1.41176em;
+}
+.site-footer-wrap .site-footer .expedia-links li {
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.site-footer-wrap .site-footer h6 li, 
+.site-footer-wrap .site-footer ul li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 0 0 -5px;
+    padding: 0;
+}
+.site-footer-wrap ul li, 
+.site-footer-wrap ol li {
+    padding: 0 0 0.705882em;
+}
+.site-footer-wrap .site-footer .footer-link {
+    margin-right: 1.41176em;
+	font-size:12px;
+}
+.site-footer-wrap a:link, 
+.site-footer-wrap .link, 
+.site-footer-wrap a:visited {
+    color: #0065B8;
+    text-decoration: none;
+	font-family:HelveticaNeueRegular, Arial, sans-serif !important;
+}
+.site-footer-wrap a:hover {
+	color:#0087F5;
+	text-decoration:underline;
+}
+.site-footer-wrap a {
+    color: #0000EE;
+}
+.site-footer-wrap .site-footer .expedia-links li {
+    line-height: 24px;
+}
+.site-footer-wrap .site-footer h6 li, 
+.site-footer-wrap .site-footer ul li {
+    list-style-type: none;
+}
+.site-footer-wrap .site-footer .expedia-links {
+    font-size: 0.764706em;
+}
+.site-footer-wrap .site-footer .legal {
+    clear: both;
+    color: #999999;
+    float: left;
+    font-size: 0.647059em;
+    margin: 1.70588em 0 1.41176em;
+}
+.site-footer-wrap .site-footer .segmented-list {
+    border: 0 none;
+}
+.site-footer-wrap .site-footer h6, 
+.site-footer-wrap .site-footer ul {
+    margin: 0;
+    padding-left: 0;
+}
+.site-footer-wrap .segmented-list {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #C7C7C7;
+    border-image: none;
+    border-radius: 0 0 0.176471em 0.176471em;
+    border-style: solid;
+    border-width: 0 0 0.0588235em;
+    color: #1F1F1F;
+    list-style: none outside none;
+    margin-bottom: 0.705882em;
+    margin-left: 0;
+    padding-left: 0;
+}
+.site-footer-wrap .site-footer .toggle {
+    margin-top: 1.05882em;
+    width: 100%;
+}
+.site-footer-wrap .site-footer h6 li, 
+.site-footer-wrap .site-footer ul li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 0 0 -5px;
+    padding: 0;
+}
+.site-footer-wrap .toggle, 
+.site-footer-wrap .toggle-pane {
+}
+.site-footer-wrap .site-footer .toggle-trigger {
+	background:url(../img/exp-toggle.png) right 4px no-repeat;
+    font-size: 0.764706em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.site-footer-wrap .site-footer .toggle-trigger:hover{
+	background:url(../img/exp-toggle_hov.png) right 4px no-repeat;
+}
+.site-footer-wrap .segmented-list a {
+    font-size: 0.647059em;
+	line-height:25px !important;
+}
+.site-footer-wrap .site-footer h6 li, 
+.site-footer-wrap .site-footer ul li {
+    list-style-type: none;
+}
+.site-footer-wrap .icon:after, 
+.site-footer-wrap .icon:before {
+    display: inline-block;
+    font-family: ExpediaIcons;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: inherit;
+    position: relative;
+    text-align: center;
+    top: -1px;
+}
+.site-footer-wrap .icon-expand:after {
+    content: "";
+}
+.site-footer-wrap .icon:after, 
+.site-footer-wrap .icon:before {
+    display: inline-block;
+    font-family: ExpediaIcons;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: inherit;
+    position: relative;
+    text-align: center;
+    top: -1px;
+}
+.site-footer-wrap .site-footer h6 li span, 
+.site-footer-wrap .site-footer ul li span {
+    padding: 0 0.294118em 0 0.411765em;
+}
+.site-footer-wrap .icon-expand {
+    font-size: 1em;
+}
+.site-footer-wrap .icon {
+    display: inline-block;
+    position: relative;
+}
+.site-footer-wrap .site-footer #tripPlanning {
+    margin-top: 0.705882em;
+}
+.site-footer-wrap .toggle.open .toggle-pane, 
+.site-footer-wrap .toggle[data-type="read-more"] .toggle-pane {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+}
+.site-footer-wrap .js .toggle-pane {
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.site-footer-wrap .toggle-pane {
+    display: block;
+    overflow: hidden;
+}
+.site-footer-wrap .toggle, 
+.site-footer-wrap .toggle-pane {
+}
+.site-footer-wrap .cols-row:before, 
+.site-footer-wrap .cols-row:after {
+    content: "";
+    display: table;
+}
+.site-footer-wrap .cf:before, 
+.site-footer-wrap .cf:after {
+    content: "";
+    display: table;
+}
+.site-footer-wrap .cols-row:after {
+    clear: both;
+}
+.site-footer-wrap .cols-row:before, 
+.site-footer-wrap .cols-row:after {
+    content: "";
+    display: table;
+}
+.site-footer-wrap .site-footer.sub-footer .cols-row {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+.site-footer-wrap .site-footer .cols-row {
+    clear: left;
+    padding-bottom: 0.941176em;
+    padding-top: 0;
+}
+.site-footer-wrap .cols-row {
+    margin: 0 auto;
+    max-width: 69.1765em;
+    padding-right: 1.41176em;
+    width: 100%;
+    position: relative;
+}
+.site-footer-wrap .site-footer .links-description {
+    padding-left: 0;
+    padding-right: 0.882353em;
+    width: 38%;
+}
+.site-footer-wrap .col {
+    float: left;
+    padding-left: 1.41176em;
+    position: relative;
+}
+.site-footer-wrap .site-footer .links-description p {
+    color: #6B6B6B;
+    padding-right: 1.41176em;
+}
+.site-footer-wrap .site-footer .links-list {
+	float:left;
+    padding-left: 0;
+    width: 60%;
+}
+.site-footer-wrap .col {
+    float: left;
+    padding-left: 1.41176em;
+    position: relative;
+}
+.site-footer-wrap .site-footer .links-list ul {
+    margin: 0 0 1.82353em 0;
+    padding: 0;
+}
+.site-footer-wrap .site-footer-wrap .site-footer h6, 
+.site-footer-wrap .site-footer-wrap .site-footer ul {
+    margin: 0;
+    padding-left: 0;
+}
+.site-footer-wrap .site-footer .links-list li {
+    color: #0065B8;
+    display: block;
+    float: left;
+    margin-bottom: -0.294118em;
+    overflow: hidden;
+    padding-right: 1.41176em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 29%;
+}
+.site-footer-wrap .site-footer .legal-footer, 
+.site-footer-wrap .site-footer .aside {
+    color: #999999 !important;
+}
+.site-footer-wrap .site-footer .legal-footer p, 
+.site-footer-wrap .site-footer .aside p{
+    color: #999999 !important;
+}
+.site-footer-wrap .site-footer .cols-row {
+    clear: left;
+    padding-bottom: 0.941176em;
+    padding-top: 0;
+}
+.site-footer-wrap .site-footer #partner-service-links {
+    margin: 0.294118em 0 0;
+}
+.site-footer-wrap .site-footer .partner-service-links, 
+.site-footer-wrap .site-footer .other-links {
+    clear: left;
+    margin: 0;
+}
+.site-footer-wrap .site-footer h6, 
+.site-footer-wrap .site-footer ul {
+    margin: 0;
+    padding-left: 0;
+}
+.site-footer-wrap .site-footer .footer-link {
+    margin-right: 1.41176em;
+	font-size:12px;
+}
+.site-footer-wrap .site-footer .global-sites-list li{
+    margin-bottom: 0.470588em;
+    width:20%;
+}
+.site-footer-wrap .site-footer h6 li, 
+.site-footer-wrap .site-footer ul li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 0 0 -5px;
+    padding: 0;
+}
+.site-footer-wrap .site-footer h6 li span, 
+.site-footer-wrap .site-footer ul li span {
+    padding: 0 0.294118em 0 0.411765em;
+}
+.site-footer-wrap .flag {
+    background: url(../img/sprite-flags.png) no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 11px;
+    margin-right: 0.411765em;
+    width: 16px;
+}
+.site-footer-wrap .flag.ar {
+    background-position: 0 0;
+}
+.site-footer-wrap .flag.at {
+    background-position: 0 -192px;
+}
+.site-footer-wrap .flag.au {
+    background-position: 0 -368px;
+}
+.site-footer-wrap .flag.be {
+    background-position: 0 -384px;
+}
+.site-footer-wrap .flag.br {
+    background-position: 0 -400px;
+}
+.site-footer-wrap .flag.ca {
+    background-position: 0 -416px;
+}
+.site-footer-wrap .flag.dk {
+    background-position: 0 -448px;
+}
+.site-footer-wrap .flag.fr {
+    background-position: 0 -16px;
+}
+.site-footer-wrap .flag.de {
+    background-position: 0 -432px;
+}
+.site-footer-wrap .flag.hk {
+    background-position: 0 -32px;
+}
+.site-footer-wrap .flag.in {
+    background-position: 0 -80px;
+}
+.site-footer-wrap .flag.ind {
+    background-position: 0 -48px;
+}
+.site-footer-wrap .flag.ie {
+    background-position: 0 -64px;
+}
+.site-footer-wrap .flag.it {
+    background-position: 0 -96px;
+}
+.site-footer-wrap .flag.jp {
+    background-position: 0 -112px;
+}
+.site-footer-wrap .flag.kr {
+    background-position: 0 -128px;
+}
+.site-footer-wrap .flag.my {
+    background-position: 0 -176px;
+}
+.site-footer-wrap .flag.mx {
+    background-position: 0 -160px;
+}
+.site-footer-wrap .flag.nl {
+    background-position: 0 -208px;
+}
+.site-footer-wrap .flag.nz {
+    background-position: 0 -240px;
+}
+.site-footer-wrap .flag.no {
+    background-position: 0 -224px;
+}
+.site-footer-wrap .flag.ph {
+    background-position: 0 -256px;
+}
+.site-footer-wrap .flag.sg {
+    background-position: 0 -288px;
+}
+.site-footer-wrap .flag.es {
+    background-position: 0 -464px;
+}
+.site-footer-wrap .flag.se {
+    background-position: 0 -272px;
+}
+.site-footer-wrap .flag.tw {
+    background-position: 0 -320px;
+}
+.site-footer-wrap .flag.th {
+    background-position: 0 -304px;
+}
+.site-footer-wrap .flag.uk {
+    background-position: 0 -336px;
+}
+.site-footer-wrap .flag.vn {
+    background-position: 0 -352px;
+}
+.site-footer-wrap .site-footer .partner-service-links, 
+.site-footer-wrap .site-footer .other-links {
+    clear: left;
+    margin: 0;
+}
+.site-footer-wrap .site-footer .other-links li {
+    color: #0065B8;
+    display: block;
+    float: left;
+    overflow: hidden;
+    padding-right: 1.41176em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 20%;
+}
+.site-footer-wrap .site-footer .other-links .footer-link {
+    color: #0065B8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.site-footer-wrap .site-footer #other-partner-links h6 {
+    color: #58738A;
+    font-weight: bold;
+    margin-top: 0.705882em;
+}
+
+@media only screen and (max-width: 950px) {
+.site-footer-wrap{
+	width:100%;
+	padding:25px 0 0 0;
+	margin:0;
+}
+.site-footer-wrap .logo-wrap{
+	width:100%;
+	clear:both;
+}
+.site-footer-wrap .site-footer{
+	margin-left:0;
+}
+.site-footer-wrap .site-footer .links-description{
+	padding:0;
+	width:100%;
+}
+.site-footer-wrap .site-footer .links-list ul.cf{
+	width:100%;
+}
+.site-footer-wrap .site-footer .links-list{
+	width:100%;
+}
+.site-footer-wrap .site-footer .links-list li{
+	width:25%;
+}
+.site-footer-wrap .site-footer .global-sites-list li{
+	width:25%;
+}
+.site-footer-wrap .site-footer .other-links li{
+	width:25%;
+}
+}
+
+@media only screen and (max-width:495px){
+.site-footer-wrap .site-footer .links-list li{
+	width:33%;
+}
+.site-footer-wrap .site-footer .global-sites-list li{
+	width:32.9%;
+}
+.site-footer-wrap .site-footer .other-links li{
+	width:33%;
+}
+}
+
+/* Galaxy S3 Portrait */
+@media only screen and (max-width: 360px) 
+and (-webkit-device-pixel-ratio: 2){
+.site-footer-wrap .site-footer .links-list li{
+	width:40%;
+}
+}
+
+/* Galaxy S3 Landscape */
+@media only screen 
+and (min-device-width: 720px) 
+and (max-device-width: 1280px) 
+and (orientation: landscape)
+and (-webkit-device-pixel-ratio: 2){
+.site-footer-wrap .site-footer .links-list li{
+	width:25%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

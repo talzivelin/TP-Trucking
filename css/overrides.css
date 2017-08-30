@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.sfPublicWrapper{
+	margin:0 !important;
+	padding:0 !important;
+	width:100% !important;
+}
+
+.sf_cols{
+	zoom:normal !important;
+}
+
+div.twocol .sf_cols:after{
+	clear:none !important;
+}
+
+div.weather.cloudy
+{
+    background:transparent url(../img/weather_cloudy.png) left top no-repeat;
+}
+
+div.weather.partlycloudy
+{
+    background:transparent url(../img/weather_partlycloudy.png) left top no-repeat;
+}
+
+div.weather.rain
+{
+    background:transparent url(../img/weather_rain.png) left top no-repeat;
+}
+
+div.weather.sun
+{
+    background:transparent url(../img/weather_sun.png) left top no-repeat;
+}

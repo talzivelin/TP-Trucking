@@ -1,0 +1,191 @@
+.fsBody .fsForm {
+	border: none;
+	color: #b8b8b8;
+	background:none;
+	margin:0;
+}
+.fsForm .fsLabel {
+	display: none;
+}
+
+.fsField	{
+	font-family:klavika, Helvetica, Arial, sans-serif;
+	font-weight: normal !important;
+}
+
+.fsFieldRow input[type=email], .fsFieldRow input[type=number], .fsFieldRow input[type=tel], .fsFieldRow input[type=text], .fsForm textarea{
+	border: 1px solid #b8b8b8;
+	background-image: none;
+	width: 100% !important;
+	color: #333 !important;
+	font-size:14px;
+}
+
+
+.select2-container {
+	width: 370px;
+}
+
+#field29368212 { 
+	width: 602px;
+}
+
+#fsCell29362712 label{
+	/*display:block;
+	position:relative;
+	z-index:3;
+	font-family:klavika,Helvetica,Arial,sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	color:#b8b8b8;
+	height:21px;
+	width:100px;
+	margin:0 -100% -21px 0;
+	top:5px;
+	left:5px;*/
+}
+
+#fsCell29362712 label .fsRequiredMarker{
+	/*font-family:klavika,Helvetica,Arial,sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	color:#b8b8b8;*/
+}
+
+select#field29362712{
+	position:relative;
+	z-index:2;
+}
+
+
+
+.fsForm .fsSubmit {
+	background:none !important;
+}
+
+.fsSubmit input.fsSubmitButton {
+	color: #26994f;
+    float: left;
+    border: none;
+	background:none;
+}
+
+.fsForm .fsSubmit {
+    padding: 0;
+}
+
+.fsFieldFocused{
+	background:none !important;
+}
+
+.fsValidationError {
+    background:none !important;
+}
+
+.fsValidationError	.fsField {
+    background:#fadadf !important;
+	border:1px solid #bfacae !important;
+}
+
+.fsValidationError .fsFieldRow input[type="email"], .fsValidationError .fsFieldRow input[type="number"], .fsValidationError .fsFieldRow input[type="tel"], .fsValidationError .fsFieldRow input[type="text"], .fsValidationError .fsForm textarea {
+    background-image: none;
+    border: 1px solid #cc0000 !important;
+    width: 370px;
+	font-size:14px;
+}
+
+.fsBody .fsSupporting	{
+	font-style: italic;
+}
+
+.fsFirst.fsLast.fsFieldCell {
+    text-align: left;
+}
+
+.fsBody .fsRowBody {
+    padding: 10px 0;
+}
+
+.fsForm input.fsField[type="email"]:focus, .fsForm input.fsField[type="file"]:focus, .fsForm input.fsField[type="number"]:focus, .fsForm input.fsField[type="tel"]:focus, .fsForm input.fsField[type="text"]:focus, .fsForm textarea.fsField:focus {
+    border-color: #999;
+	font-size:14px;
+}
+
+div.fsError {
+	display:none;
+}
+
+.fsForm select {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+select {
+    -moz-appearance: none !important;
+    background: url("../img/select-bg.jpg") no-repeat scroll right top #fff;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    box-sizing: border-box;
+    float: left;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    outline: 0 none !important;
+    padding: 0 65px 0 5px;
+    text-shadow: none !important;
+    width: 96.5% !important;
+	border: 1px solid #b8b8b8;
+	color:#919191;
+	padding: 4px 0;
+	margin:0 0 20px 0;
+}
+
+.fsSubmit input.fsSubmitButton {
+    clear: both;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media (max-width : 783px) {
+	
+.select2-container {
+	color:#cc0000;
+}
+
+
+.fsFieldRow input[type=email], .fsFieldRow input[type=number], .fsFieldRow input[type=tel], .fsFieldRow input[type=text], .fsForm textarea{
+	width: 94% !important;
+}
+}
+
+
+@media (max-width : 565px) {
+	
+.select2-container {
+	width: 270px !important;
+}
+
+.fsFieldRow input[type=email], .fsFieldRow input[type=number], .fsFieldRow input[type=tel], .fsFieldRow input[type=text], .fsForm textarea{
+	border: 1px solid #b8b8b8;
+	background-image: none;
+	width: 92.5% !important;
+	font-size:14px;
+}
+
+.fsForm .fsSubmit {
+	background-color: #ffffff;
+	width: 100% !important;
+}
+
+.fsBody .fsForm, .fsBody .fsPage {
+    margin: 0 auto;
+    width: 300px;
+}
+
+select {
+	width:270px;
+	margin:0 0 20px 0;
+}
+
+}
+
